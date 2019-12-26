@@ -1,0 +1,79 @@
+@charset "UTF-8";
+div {
+  width: 35px; }
+
+div:before {
+  background: rgba(3, 4, 5, 0.9);
+  color: #020406;
+  content: "liangliang ate 90 baozi"; }
+
+p {
+  font: 10px/5px;
+  width: 500px;
+  height: 250px;
+  margin: 9px; }
+
+.my1, .my2 {
+  color: #111;
+  background: #111; }
+
+.my2 {
+  border-color: #222; }
+
+p {
+  background: -webkit-linear-gradient(bottom, #000, #0aa1ed);
+  background: -o-linear-gradient(bottom, #000, #0aa1ed);
+  background: -moz-linear-gradient(bottom, #000, #0aa1ed);
+  background: -ms-linear-gradient(bottom, #000, #0aa1ed); }
+
+p {
+  background: #000000;
+  border: 1px solid #f00;
+  border-radius: 50%; }
+
+div {
+  width: 200px;
+  border: 1px solid #f00;
+  border-radius: 50%; }
+
+.my-color {
+  color: #f00; }
+
+a {
+  color: #fff; }
+  a:hover {
+    color: #00f; }
+
+#content {
+  border: 1px solid #f00; }
+  #content a {
+    color: #fff; }
+    #content a:hover {
+      color: #00f; }
+  #content p {
+    background: #00f; }
+    #content p a {
+      text-decoration: none; }
+    #content p b {
+      text-style: normal; }
+  #content div {
+    background: #00f; }
+    #content div ul {
+      list-style: none; }
+      #content div ul li {
+        border: 0; }
+        #content div ul li a {
+          text-decoration: none; }
+        #content div ul li img {
+          outline: 0; }
+
+/*1.变量*/
+p:before {
+  content: "yellow duck"; }
+
+div {
+  color: #f10215;
+  width: 100px;
+  border: 1px solid #f10215;
+  border-top: 2px solid #f10215;
+  border-bottom: #069; }
